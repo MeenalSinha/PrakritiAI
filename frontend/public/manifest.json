@@ -1,0 +1,50 @@
+{
+  "name": "PrakritiAI — Natural Farming Companion",
+  "short_name": "PrakritiAI",
+  "description": "Voice-powered AI assistant for Zero Budget Natural Farming. Crop disease diagnosis, Jeevamrut, government schemes, and market prices — in Hindi.",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#F0FAF4",
+  "theme_color": "#2D6A4F",
+  "lang": "hi",
+  "orientation": "portrait-primary",
+  "categories": ["agriculture", "productivity", "utilities"],
+  "icons": [
+    {
+      "src": "/icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "/icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Prakriti se Baat Karein",
+      "short_name": "AI Chat",
+      "description": "Open the voice assistant",
+      "url": "/assistant",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Fasal Doctor",
+      "short_name": "Crop Doctor",
+      "description": "Diagnose crop disease from photo",
+      "url": "/disease",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    },
+    {
+      "name": "Mandi Bhaav",
+      "short_name": "Market",
+      "description": "Check today's mandi prices",
+      "url": "/market",
+      "icons": [{ "src": "/icons/icon-192.png", "sizes": "192x192" }]
+    }
+  ]
+}

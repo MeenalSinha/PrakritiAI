@@ -1,0 +1,131 @@
+RABI SEASON CROPS — PLANTING GUIDE FOR NATURAL FARMING
+
+RABI SEASON OVERVIEW:
+Rabi crops are sown in October–November and harvested in February–March.
+Primary states: Punjab, Haryana, UP, MP, Bihar, Rajasthan
+
+KEY RABI CROPS IN NATURAL FARMING:
+
+WHEAT (GEHOON) — Triticum aestivum:
+Best Varieties for NF:
+- For Punjab/Haryana: HD 3086, HD 2781, HD 2967, WH 711
+- For UP/Bihar: GW 496, K 307, Sonalika
+- Heritage/Indigenous: Sharbati wheat (MP), Khapli (emmer wheat — Maharashtra, drought resistant)
+- Avoid: PBW 343, PBW 502 — heavy input dependent
+
+Planting Calendar:
+- Sowing: 1–30 November (timely sown)
+- Late sowing: December (HD varieties preferred)
+- Harvest: March–April
+
+Seed Rate: 40–45 kg/acre (timely) | 50–55 kg/acre (late sowing)
+Seed Treatment: Beejamrut — soak 30 minutes before sowing
+
+Jeevamrut Schedule for Wheat:
+- Application 1: 15–20 DAS (crown root initiation)
+- Application 2: 40–45 DAS (tillering stage — most critical)
+- Application 3: 60–65 DAS (flowering stage)
+- Foliar spray: Diluted Jeevamrut (1:10) at 75 DAS (grain filling)
+
+Expected Yield: 16–20 quintals/acre with NF (vs 18–22 conventional)
+Note: Yield may be slightly lower initially but stabilizes by Year 3 as soil improves
+
+Wheat Disease Management:
+- Loose smut: Beejamrut treatment prevents 80% of infection
+- Yellow rust (stripe rust): Wettable sulfur 3g/L spray at early sign
+- Powdery mildew: Milk spray (1:9) or baking soda 10g/L
+
+Irrigation for Wheat (Critical Stages):
+- Crown root initiation: 20–25 DAS (MOST critical — never skip)
+- Tillering: 45 DAS
+- Jointing: 60–65 DAS
+- Flowering/anthesis: 80–85 DAS
+- Dough stage: 100–105 DAS
+- Milk stage: 115 DAS (last irrigation)
+
+MUSTARD (SARSON) — Brassica juncea:
+Best NF Varieties: Pusa Agrani, Pusa Mahak, RH 30, Bio-902
+Planting: 1–20 October | Harvest: February–March
+
+Natural Farming Advantage: Mustard is allelopathic — suppresses weeds naturally
+Spacing: 30cm x 10cm (line sowing) | 45cm x 15cm (for small farmers)
+
+Aphid Management (Key Challenge):
+- Natural: Imidacloprid is NOT allowed; use neem oil 5ml/L
+- Spray timing: When 50+ aphids per plant (ETL)
+- Parasitic wasps (Diaeretiella rapae) naturally control aphids — encourage by NOT using chemicals
+
+CHICKPEA (CHANA) — Cicer arietinum:
+Varieties: JG 11, JAKI 9218, Pusa 256, KPG 59
+Planting: 25 October – 15 November | Harvest: February–March
+
+NF Advantage: N-fixing legume — adds 40–50 kg N/ha to soil
+Highly drought-tolerant — suits rain-shadow zones (Rajasthan, Maharashtra plateau)
+
+Boron Requirement: Very sensitive to boron deficiency
+Natural Boron Source: Borax 200g/acre dissolved in Jeevamrut
+
+Wilt (Fusarium) Management:
+- Most devastating disease of chickpea
+- Use wilt-resistant varieties (JG 11 is resistant)
+- Trichoderma viride seed treatment
+- Beejamrut treatment essential
+
+POTATO (ALOO) — Solanum tuberosum:
+Best NF Varieties: Kufri Chandramukhi, Kufri Jyoti, Kufri Bahar, Kufri Sindhuri
+Planting: 15 September – 15 November (plains) | Harvest: January–February
+
+Seed Potato Treatment:
+- Do NOT use Beejamrut liquid — dip cut tubers in wood ash + neem powder
+- Let cut surface dry for 24 hours before planting
+
+NF Soil Requirement: Potatoes need loose, well-drained soil
+- Deep plough to 20cm
+- Add compost 2 tons/acre before planting
+- Ridge formation: 30cm high ridges
+
+Potato Disease Focus:
+- Late blight: Major challenge; Copper hydroxide spray preventively before rain
+- Common scab: Maintain soil pH below 7.0; add compost to lower pH
+- Black scurf: Trichoderma seed treatment
+
+ONION (PYAAZ) — Allium cepa:
+NF Varieties: Nasik Red, N 53, Agrifound Light Red, Phule Samarth
+Nursery: August–September | Transplanting: October–November | Harvest: March–April
+
+Sulfur Requirement (Critical for onion pungency and yield):
+Natural Source: Gypsum (calcium sulfate) 100kg/acre applied at planting
+
+Pink Root Disease: Beejamrut treatment of seedling roots before transplanting
+Purple Blotch: Copper-based spray or neem oil 10ml/L at 7-day intervals
+
+GARLIC (LAHSUN) — Allium sativum:
+Planting: October | Harvest: March–April
+Clove Treatment: Beejamrut + Trichoderma powder mixture
+
+Storage (Post-harvest): Natural farming garlic stores for 8–10 months without chemical treatment because of lower water content
+
+GRAM/LENTIL (MASOOR) — Lens culinaris:
+Duration: 100–110 days
+NF Advantage: Extreme nitrogen-fixing ability — 50–60 kg N/ha
+Post-harvest: Incorporate dry plant matter into soil — releases nitrogen slowly
+
+GENERAL RABI FARMING NOTES:
+
+Timing is Critical:
+- Wheat sown after 15 December loses 1 quintal yield per week
+- Chickpea sown before October 15: vegetative growth, less yield
+- Mustard sown after November 15: escapes peak aphid pressure
+
+Water Management in Rabi:
+Rabi crops use 60% less water than Kharif
+Golden Rule: "Irrigate at critical stages, never casually"
+Water-stress tolerance of rabi crops (from most to least):
+Chickpea > Mustard > Barley > Wheat > Potato > Onion
+
+Cold Wave Protection:
+- Light irrigation before frost protects crops (latent heat)
+- Smoke at dawn in orchards
+- Mulching for vegetable nurseries
+
+Source: ICAR-IARI Rabi Crop Manual 2023, NRCOG Onion-Garlic Guide, Wheat Research Directorate Karnal Factsheet

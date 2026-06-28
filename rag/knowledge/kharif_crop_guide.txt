@@ -1,0 +1,122 @@
+KHARIF SEASON CROPS — PLANTING GUIDE FOR NATURAL FARMING
+
+KHARIF SEASON OVERVIEW:
+Kharif crops are sown at the onset of monsoon (June–July) and harvested in October–November.
+Primary states: All of India — especially Maharashtra, Punjab, Haryana, UP, MP, Bihar, Karnataka
+
+KEY KHARIF CROPS AND NATURAL FARMING CALENDAR:
+
+PADDY (RICE) — Oryza sativa:
+Varieties for Natural Farming:
+- Traditional: Sona Masuri, Kolam, Govind Bhog, Kalanamak, Lalri, Navara (medicinal)
+- Avoid: Hybrid varieties — require more inputs, not suitable for NF
+
+Planting Calendar:
+- Nursery sowing: 15 June – 30 June
+- Transplanting: 15 July – 15 August (Kharif)
+- Harvest: October – November
+
+Seed Rate: 25–30 kg/acre (transplanting); 40–50 kg/acre (direct seeding)
+Spacing: 20cm x 20cm (SRI method) or 25cm x 25cm
+
+SRI Method (System of Rice Intensification) for NF:
+1. Transplant 12–14 day seedlings (not older — very important)
+2. Single seedling per hill — NOT bunches
+3. Spacing: 25cm x 25cm
+4. Moist soil — NOT continuous flooding (saves 30% water)
+5. Apply Jeevamrut at 15, 30, and 45 DAS
+6. Weed with rotary weeder — aerates soil, improves yield
+
+Water Management in Paddy:
+- NF paddy needs 30–40% LESS water than conventional
+- Use "Wet-Dry" cycles: flood for 2 days, drain for 2 days
+- Do NOT maintain continuous water logging — causes methane emission and root stress
+
+Expected Yield with NF: 22–28 quintals/acre (vs 20–25 conventional)
+
+COTTON (GOSSYPIUM HIRSUTUM) — Bt or Non-Bt:
+Natural Farming Note: Non-Bt cotton varieties are recommended for NF systems
+Varieties: YCSDH 32, Bunny (Non-Bt), Ankur, Narayani (indigenous varieties preferred)
+
+Planting Calendar:
+- Sowing: 1 May – 30 June (pre-monsoon or early kharif)
+- Harvest: December – January
+- Seed treatment with Beejamrut: Essential for good germination
+
+Spacing: 60cm x 90cm (traditional); 120cm x 45cm (high density planting)
+Seed Rate: 1.5–2 kg/acre
+
+Jeevamrut Schedule for Cotton:
+- Application 1: 15 DAS (soil drench 200L/acre)
+- Application 2: 35 DAS
+- Application 3: 55 DAS (boll formation stage — critical)
+- Foliar spray: Weekly neem oil 5ml/L during boll weevil season
+
+SOYBEAN — Glycine max:
+Varieties for NF: JS 335, JS 93-05, MAUS 61, Phule Agrani
+Planting: 15 June – 15 July | Harvest: October
+
+Natural Advantage of Soybean:
+- Nitrogen-fixing root nodules — adds 40–80 kg N/ha to soil
+- After soybean, wheat needs 30% less jeevamrut application
+- Intercrop soybean with maize (1:2 ratio) for best results
+
+Jeevamrut Note: Soybean is nitrogen-fixer — reduce Jeevamrut nitrogen dose; focus on phosphorus (add rock phosphate)
+
+MAIZE (MAKKA) — Zea mays:
+Varieties: Ganga 5, Deccan 103, Shaktiman (open-pollinated preferred)
+Planting: June–July | Harvest: October
+
+Intercropping System (Palekar Method):
+- Row 1: Maize
+- Row 2: Arhar (pigeon pea)  
+- Row 3: Cowpea (nitrogen fixer)
+- Row 4: Maize
+This 4-row pattern: Maize, Arhar, Cowpea, Maize provides wind protection, N-fixing, and maximum yield per acre
+
+MOONG (GREEN GRAM) — Vigna radiata:
+Varieties: PDM 54, SML 668, Pusa Vishal, MH 421
+Duration: 60–70 days (very short crop — excellent for crop rotation)
+Planting: June–July | Harvest: September
+
+NF Advantage: Short duration, nitrogen fixer, leaves biodegradable mulch after harvest
+
+GROUNDNUT (PEANUTS) — Arachis hypogaea:
+NF Varieties: TG 38, JL 24, GG 7, Chaffa (indigenous varieties)
+Planting: June–July | Harvest: October–November
+Seed Rate: 60–70 kg/acre
+
+Gypsum Application (Organic Source):
+Apply 100 kg gypsum/acre at pegging stage — natural calcium source, prevents empty pods
+
+CROP ROTATION RECOMMENDATIONS FOR KHARIF:
+
+Year 1 Kharif → Year 1 Rabi:
+Paddy/Wheat rotation (traditional, but nutrient-depleting)
+
+BETTER ROTATION FOR NF:
+Year 1 Kharif: Maize/Soybean intercrop
+Year 1 Rabi: Wheat
+Year 2 Kharif: Cotton or Paddy
+Year 2 Rabi: Chickpea/Mustard
+Year 3 Kharif: Vegetables (Tomato, Brinjal)
+Year 3 Rabi: Potato/Onion
+
+This rotation prevents disease buildup, maintains soil health, and reduces input needs.
+
+SOIL TESTING BEFORE KHARIF SOWING:
+Test for: pH, EC, N, P, K, Organic Carbon (OC), Zinc, Boron
+Target values for most Kharif crops:
+- pH: 6.5–7.5 (ideal)
+- OC: >0.75% (increase with Jeevamrut over 3 seasons)
+- N: 250–280 kg/ha (available)
+- P: 22–25 kg/ha (available)
+- K: 280–300 kg/ha (available)
+
+Correction Using Natural Inputs:
+- Low pH (acidic): Add lime (limestone powder) 200kg/acre
+- High pH (alkaline): Add gypsum 100kg/acre
+- Low phosphorus: Rock phosphate 50kg/acre
+- Low zinc: Apply zinc solubilizing bacteria (ZSB) — available from KVK
+
+Source: ICAR Kharif Crop Production Manual 2023, Subhash Palekar ZBNF Volume 3, TNAU Organic Farming Guide
