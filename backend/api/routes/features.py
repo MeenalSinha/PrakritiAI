@@ -40,27 +40,16 @@ async def diagnose(
     
     # Read image bytes
     image_bytes = await file.read()
-    if len(image_bytes) > settings.MAX_UPLOAD_SIZE_MB * 1024 * 1024:
-        raise HTTPException(status_code=400, detail=f"Image too large. Max size: {settings.MAX_UPLOAD_SIZE_MB}MB")
-    
-    # Save image
-    upload_dir = os.path.join(settings.UPLOAD_DIR, "diagnoses")
-    os.makedirs(upload_dir, exist_ok=True)
-    filename = f"{uuid.uuid4().hex}{os.path.splitext(file.filename or 'img.jpg')[1]}"
-    filepath = os.path.join(upload_dir, filename)
-    with open(filepath, "wb") as f:
-        f.write(image_bytes)
-    
     # Analyze
     result = await diagnose_crop_disease(image_bytes, file.content_type or "image/jpeg")
     
     if result.get("success") and result.get("result"):
         r = result["result"]
-        # Save to database
+        # Save to database with a dummy image_path (in-memory for Vercel)
         diag = Diagnosis(
             user_id=current_user.id if current_user else None,
             session_id=uuid.uuid4().hex,
-            image_path=filepath,
+            image_path="memory_upload_vercel",
             disease_name=r.get("disease_name"),
             confidence=r.get("confidence"),
             status=r.get("status"),
@@ -72,8 +61,7 @@ async def diagnose(
         )
         db.add(diag)
         db.commit()
-        
-        return {"success": True, "diagnosis_id": diag.id, "result": r, "image_path": f"/uploads/diagnoses/{filename}"}
+        return {"success": True, "diagnosis_id": diag.id, "result": r, "image_path": "memory_upload_vercel"}
     
     return result
 

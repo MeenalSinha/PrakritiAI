@@ -1,6 +1,9 @@
 import { useEffect, useState, useCallback } from 'react'
 import { useNavigate } from 'react-router-dom'
-import { Mic, Upload, Cloud, ArrowRight, Phone, Leaf, Sun, Droplets, Wind, Info, ChevronRight, CheckCircle2, TrendingUp, MapPin, Building2, BookOpen, Clock, Camera } from 'lucide-react'
+import { 
+  Sprout, Droplets, Thermometer, Wind, Activity, CheckCircle2,
+  AlertTriangle, Info, Plus, ChevronRight, X, Image as ImageIcon, Camera, Upload, Cloud, ArrowRight, Phone, Leaf, Sun, MapPin, Building2, BookOpen, Clock, Mic, TrendingUp
+} from 'lucide-react'
 import { useAuth } from '../context/AuthContext'
 import { useTranslation } from '../utils/useTranslation'
 import { weatherAPI, marketAPI, tipsAPI, dashboardAPI, kvkAPI, diseaseAPI, learningAPI } from '../utils/api'
