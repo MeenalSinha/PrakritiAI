@@ -17,7 +17,7 @@ from config.settings import settings
 from sqlalchemy import event
 
 # Fix SQLAlchemy dialect for psycopg3 (required for Vercel/AWS Lambda compatibility)
-db_url = settings.DATABASE_URL
+db_url = settings.DATABASE_URL.strip()
 if db_url.startswith("postgres://") or db_url.startswith("postgresql://"):
     db_url = db_url.replace("postgres://", "postgresql+psycopg://").replace("postgresql://", "postgresql+psycopg://")
     if "?" not in db_url:
