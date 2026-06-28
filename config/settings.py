@@ -22,7 +22,7 @@ class Settings(BaseSettings):
     OPENWEATHER_API_KEY: str = ""
 
     # Database
-    DATABASE_URL: str = "sqlite:///./prakriti.db"
+    DATABASE_URL: str = os.getenv("DATABASE_URL", "sqlite:////tmp/prakriti.db" if os.getenv("VERCEL") else "sqlite:///./prakriti.db")
 
     # Storage
     UPLOAD_DIR: str = "uploads"
@@ -63,5 +63,8 @@ class Settings(BaseSettings):
 
 settings = Settings()
 
-# Ensure upload directory exists
-Path(settings.UPLOAD_DIR).mkdir(parents=True, exist_ok=True)
+# Ensure upload directory exists (will fail silently on read-only systems like Vercel)
+try:
+    Path(settings.UPLOAD_DIR).mkdir(parents=True, exist_ok=True)
+except Exception:
+    pass
