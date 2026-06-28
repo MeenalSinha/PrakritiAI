@@ -8,6 +8,16 @@ import { useAuth } from '../context/AuthContext'
 import { useTranslation } from '../utils/useTranslation'
 import { weatherAPI, marketAPI, tipsAPI, dashboardAPI, kvkAPI, diseaseAPI, learningAPI } from '../utils/api'
 
+import tomatoBlightImg from '../assets/images/tomato_blight.jpg';
+import chilliAphidsImg from '../assets/images/chilli_aphids.jpg';
+import brinjalSpotImg from '../assets/images/brinjal_spot.jpg';
+import jeevamrutImg from '../assets/images/jeevamrut.jpg';
+import beejamrutImg from '../assets/images/beejamrut.jpg';
+import multilevelFarmingImg from '../assets/images/multilevel_farming.jpg';
+import cropRotationImg from '../assets/images/crop_rotation.jpg';
+import kvkBuildingImg from '../assets/images/kvk_building.jpg';
+import farmerIllustrationImg from '../assets/images/farmer_illustration.jpg';
+
 // Fallback data
 const MOCK_WEATHER = { temperature: 32, description: 'Partly Cloudy', humidity: 48, wind_speed: 12, rain_chance: 10, icon: '02d', forecast: [
   { day: 'Mon', icon: '01d', high: 33, low: 24 },
@@ -17,15 +27,15 @@ const MOCK_WEATHER = { temperature: 32, description: 'Partly Cloudy', humidity: 
   { day: 'Fri', icon: '09d', high: 31, low: 23 },
 ] }
 const MOCK_DIAGNOSES = [
-  { image_url: '/images/tomato_blight.jpg', disease_name: 'Tomato - Early Blight', confidence: 91 },
-  { image_url: '/images/chilli_aphids.jpg', disease_name: 'Chilli - Aphids', confidence: 87 },
-  { image_url: '/images/brinjal_spot.jpg', disease_name: 'Brinjal - Leaf Spot', confidence: 89 },
+  { image_url: tomatoBlightImg, disease_name: 'Tomato - Early Blight', confidence: 91 },
+  { image_url: chilliAphidsImg, disease_name: 'Chilli - Aphids', confidence: 87 },
+  { image_url: brinjalSpotImg, disease_name: 'Brinjal - Leaf Spot', confidence: 89 },
 ]
 const MOCK_LESSONS = [
-  { title: 'Jeevamrut', description: 'Learn how to prepare and use jeevamrut', read_time: '5 min read', cover_image: '/images/jeevamrut.jpg' },
-  { title: 'Beejamrut', description: 'Seed treatment for better germination', read_time: '4 min read', cover_image: '/images/beejamrut.jpg' },
-  { title: 'Multilevel Farming', description: 'Increase productivity naturally', read_time: '6 min read', cover_image: '/images/multilevel_farming.jpg' },
-  { title: 'Crop Rotation', description: 'Improve soil fertility naturally', read_time: '5 min read', cover_image: '/images/crop_rotation.jpg' },
+  { title: 'Jeevamrut', description: 'Learn how to prepare and use jeevamrut', read_time: '5 min read', cover_image: jeevamrutImg },
+  { title: 'Beejamrut', description: 'Seed treatment for better germination', read_time: '4 min read', cover_image: beejamrutImg },
+  { title: 'Multilevel Farming', description: 'Increase productivity naturally', read_time: '6 min read', cover_image: multilevelFarmingImg },
+  { title: 'Crop Rotation', description: 'Improve soil fertility naturally', read_time: '5 min read', cover_image: cropRotationImg },
 ]
 const MOCK_DASHBOARD = { area: '8.5', activeCrops: 4, tasksToday: 3, soilHealth: 92 }
 const MOCK_PRICES = [
@@ -38,7 +48,7 @@ const MOCK_KVK = {
   name: 'Krishi Vigyan Kendra',
   address: 'Narnaund Road, 125001',
   distance: 12,
-  image: '/images/kvk_building.jpg'
+  image: kvkBuildingImg
 }
 const WEATHER_ICONS = {
   '01d': '☀️', '01n': '🌙', '02d': '⛅', '02n': '☁️',
@@ -358,7 +368,7 @@ export default function HomePage() {
            <div style={{ fontSize: 14, color: 'var(--gray-800)', lineHeight: 1.6, maxWidth: '70%', marginBottom: 16 }}>
              {tipOfDay}
            </div>
-           <img src="/images/farmer_illustration.jpg" alt="Farmer" style={{ position: 'absolute', right: -20, bottom: -20, height: 160 }} />
+           <img src={farmerIllustrationImg} alt="Farmer" style={{ position: 'absolute', right: -20, bottom: -20, height: 160 }} />
            
            <div style={{ textAlign: 'right', marginTop: 12 }}>
              <span style={{ fontSize: 12, color: 'var(--green-primary)', fontWeight: 700, cursor: 'pointer', display: 'inline-flex', alignItems: 'center', gap: 4 }}>View more tips <ArrowRight size={14} /></span>
@@ -372,7 +382,7 @@ export default function HomePage() {
                <Building2 size={20} color="var(--green-medium)" /> {t('Nearby KVK')}
              </div>
              <div style={{ display: 'flex', gap: 16 }}>
-               <img src={kvk.image || '/images/kvk_building.jpg'} alt="KVK" style={{ width: 80, height: 80, borderRadius: 8, objectFit: 'cover' }} />
+               <img src={kvk.image || kvkBuildingImg} alt="KVK" style={{ width: 80, height: 80, borderRadius: 8, objectFit: 'cover' }} />
                <div>
                  <div style={{ fontSize: 14, fontWeight: 600, color: 'var(--gray-900)', marginBottom: 4 }}>{kvk.name || 'Krishi Vigyan Kendra'}, {district}</div>
                  <div style={{ fontSize: 12, color: 'var(--gray-500)', lineHeight: 1.4, marginBottom: 8 }}>{kvk.address || `${district}, ${state}`}</div>
