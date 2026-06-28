@@ -16,10 +16,15 @@ from config.settings import settings
 
 from sqlalchemy import event
 
+# Fix SQLAlchemy dialect for psycopg3 (required for Vercel/AWS Lambda compatibility)
+db_url = settings.DATABASE_URL
+if db_url.startswith("postgres://") or db_url.startswith("postgresql://"):
+    db_url = db_url.replace("postgres://", "postgresql+psycopg://").replace("postgresql://", "postgresql+psycopg://")
+
 engine = create_engine(
-    settings.DATABASE_URL,
+    db_url,
     pool_pre_ping=True,
-    connect_args={"check_same_thread": False} if "sqlite" in settings.DATABASE_URL else {}
+    connect_args={"check_same_thread": False} if "sqlite" in db_url else {}
 )
 
 if "sqlite" in settings.DATABASE_URL:
