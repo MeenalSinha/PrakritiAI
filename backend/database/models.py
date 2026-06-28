@@ -20,6 +20,10 @@ from sqlalchemy import event
 db_url = settings.DATABASE_URL
 if db_url.startswith("postgres://") or db_url.startswith("postgresql://"):
     db_url = db_url.replace("postgres://", "postgresql+psycopg://").replace("postgresql://", "postgresql+psycopg://")
+    if "?" not in db_url:
+        db_url += "?sslmode=require"
+    elif "sslmode=" not in db_url:
+        db_url += "&sslmode=require"
 
 from sqlalchemy.pool import NullPool
 
