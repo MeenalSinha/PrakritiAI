@@ -105,7 +105,7 @@ async def login(req: LoginRequest, response: Response, db: Session = Depends(get
 
 @router.post("/guest")
 async def guest_login(req: GuestRequest, response: Response, db: Session = Depends(get_db)):
-    guest_phone = f"guest_{uuid.uuid4().hex[:10]}"
+    guest_phone = f"g_{uuid.uuid4().hex[:10]}"
     user = User(
         name=req.name,
         phone=guest_phone,
