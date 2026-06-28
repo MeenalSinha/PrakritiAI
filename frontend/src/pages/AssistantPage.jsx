@@ -184,9 +184,10 @@ export default function AssistantPage() {
       let sources = []
       let buffer = ''
 
+      let isStreamDone = false
       while (true) {
         const { done, value } = await reader.read()
-        if (done) break
+        if (done || isStreamDone) break
         
         buffer += decoder.decode(value, { stream: true })
         const lines = buffer.split('\n\n')
@@ -196,7 +197,12 @@ export default function AssistantPage() {
         for (const line of lines) {
           if (line.startsWith('data: ')) {
             const dataStr = line.slice(6).trim()
-            if (dataStr === '[DONE]') continue
+            if (dataStr === '[DONE]') {
+              // Explicitly close reader on done to prevent hanging
+              reader.cancel().catch(() => {})
+              isStreamDone = true
+              break
+            }
             
             try {
               const payload = JSON.parse(dataStr)
