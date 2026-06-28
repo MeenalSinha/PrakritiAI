@@ -34,7 +34,10 @@ limiter = Limiter(key_func=get_remote_address, default_limits=[settings.RATE_LIM
 @asynccontextmanager
 async def lifespan(app: FastAPI):
     # Startup
-    create_tables()
+    try:
+        create_tables()
+    except Exception as e:
+        logger.error(f"Database initialization failed: {e}")
     logger.info(f"PrakritiAI API started · Mode: {settings.APP_ENV}")
     logger.info(f"AI configured: {settings.ai_configured}")
     logger.info("API Docs: http://localhost:8000/api/docs")

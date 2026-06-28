@@ -21,11 +21,16 @@ db_url = settings.DATABASE_URL
 if db_url.startswith("postgres://") or db_url.startswith("postgresql://"):
     db_url = db_url.replace("postgres://", "postgresql+psycopg://").replace("postgresql://", "postgresql+psycopg://")
 
-engine = create_engine(
-    db_url,
-    pool_pre_ping=True,
-    connect_args={"check_same_thread": False} if "sqlite" in db_url else {}
-)
+from sqlalchemy.pool import NullPool
+
+engine_kwargs = {
+    "pool_pre_ping": True,
+    "connect_args": {"check_same_thread": False} if "sqlite" in db_url else {}
+}
+if "sqlite" not in db_url:
+    engine_kwargs["poolclass"] = NullPool
+
+engine = create_engine(db_url, **engine_kwargs)
 
 if "sqlite" in settings.DATABASE_URL:
     @event.listens_for(engine, "connect")
